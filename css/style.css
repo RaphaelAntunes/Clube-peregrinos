@@ -1,0 +1,623 @@
+        * {
+            font-family: Roboto;
+            margin: 0;
+            padding: 0;
+            border: none;
+            word-wrap: break-word;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        button {
+            cursor: pointer;
+        }
+        
+        a:link {
+            text-decoration: none !important;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        p {
+            padding: 0;
+            margin: 0;
+        }
+        /*Reset*/
+        
+        body {}
+        
+        .navbar {
+            box-shadow: -6px 2px 20px 6px rgb(0 0 0 / 43%);
+            background-color: #103D66 !important;
+            padding: 10px 60px !important;
+        }
+        
+        .hello {
+            margin-top: 96px;
+            background: linear-gradient(180deg, #7FD4F9 0%, rgba(65, 194, 249, 0) 100%);
+            padding: 30px 20px 30px 30px !important;
+        }
+        
+        .b {
+            align-self: flex-end;
+        }
+        
+        button {}
+        
+        .logo {
+            max-width: 180px;
+            width: 100%;
+        }
+        
+        .btn-link {
+            font-size: 20;
+            font-weight: normal;
+            color: white;
+            transition: .4s;
+        }
+        
+        .btn-link:hover {
+            transition: .4s;
+            color: #EDCD1F;
+        }
+        
+        .btnlivre {
+            min-width: 300px !important;
+        }
+        
+        .hellotext {
+            color: black;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+            letter-spacing: 0.01em;
+        }
+        
+        .curto {
+            padding: 15px;
+            color: white;
+            background: #103D66;
+            box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.4);
+        }
+        
+        .curto h1 {
+            font-size: 30;
+        }
+        
+        .god h1 {
+            font-weight: bold;
+        }
+        
+        .hellocontent button {
+            transition: .3s;
+            background: #103D66;
+            box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.4);
+            border-radius: 20px;
+            width: 100%;
+            max-width: 264px;
+            height: 72px;
+            color: white;
+            font-size: 23;
+            font-weight: bold;
+        }
+        
+        @media(max-width:991px) {
+            .hellotext {
+                text-align: center;
+                font-size: 36px;
+                line-height: 50px;
+            }
+            .hellocontent button {
+                font-size: 21;
+            }
+            .chamada2text,
+            .chamada2sub,
+            .btndiv {
+                text-align: center !important;
+            }
+            .chamadatext {
+                font-size: 25px !important;
+            }
+            .chamada2text {
+                font-size: 38px !important;
+            }
+            .chamadatextprincipal {
+                font-size: 39px !important;
+            }
+            .chamada2sub {
+                font-size: 30px !important;
+            }
+            .parte2-text {
+                font-size: 40px !important;
+            }
+        }
+        
+        @media(max-width:675px) {
+            .hellotext {
+                font-size: 36px;
+                line-height: 50px;
+            }
+        }
+        
+        .cloud {
+            align-items: center;
+            justify-content: center;
+            padding: 0 0 150px 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("../img/cloud.svg");
+        }
+        
+        .cloud-text {
+            padding: 20px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 56px;
+            letter-spacing: 0.01em;
+            color: black;
+        }
+        
+        .cloudimg {
+            transition: 1s;
+            margin-top: 30px;
+            width: 100%;
+            max-width: 200px;
+        }
+        
+        .cloudimg1 {
+            transition: 1s;
+            margin-top: 30px;
+            width: 100%;
+            max-width: 200px;
+        }
+        
+        .imggod {
+            width: 100%;
+            max-width: 94px;
+        }
+        
+        @media (min-width: 992px) {
+            .end {
+                align-self: flex-end;
+            }
+        }
+        
+        .footerimg {
+            max-width: 195px;
+            width: 100%;
+        }
+        
+        @media(max-width: 992px) {
+            .nav-item a {
+                margin: 0 !important;
+            }
+            .navbar {
+                padding: 10px !important;
+            }
+            .phonenumber {
+                margin-left: 0px!important;
+            }
+            .whois {
+                padding-bottom: 60px;
+            }
+            .divbox1 {
+                margin-right: 0px !important;
+            }
+            .godcontent h1 {
+                text-align: center;
+            }
+            .formcontato input {
+                margin-left: 0 !important;
+            }
+            .bordergodp {
+                max-width: 100% !important;
+            }
+            .divimgwhois {
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .imgwhois {
+                margin-right: 0px !important;
+            }
+            .chamadatextprincipal {
+                text-align: center !important;
+            }
+            .box1 h1 {
+                text-align: center;
+            }
+            .borderz {
+                width: 100% !important;
+                text-align: center !important;
+            }
+            .chamadavalor {
+                justify-content: center;
+            }
+            .chamadabutton {
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                display: flex;
+            }
+            .imgbox1 {
+                padding-right: 0px !important;
+            }
+            .box2 h1 {
+                text-align: center !important;
+            }
+            .boxdiv2 {
+                flex-direction: column !important;
+            }
+            .p2 {
+                margin-top: 20px;
+            }
+        }
+        
+        @media (max-width: 772px) {
+            .chamadavalor {
+                font-size: 39px !important;
+            }
+            .god h1 {
+                font-size: 30px !important;
+            }
+        }
+        
+        @media (max-width:440px) {
+            .god h1 {
+                font-size: 25px !important;
+            }
+            .boxgod p {
+                font-size: 18px !important;
+            }
+            .godbutton {
+                font-size: 18px !important;
+            }
+        }
+        
+        .imgwhois {
+            max-width: 496px;
+            width: 100%
+        }
+        
+        .cloud-sub {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 35px;
+            letter-spacing: 0.01em;
+            color: black;
+        }
+        
+        .cloud-icons {
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .cloud-icons div {}
+        
+        .cloud-icons p {
+            color: black;
+            font-size: 25;
+            border-bottom: 5px solid #103d66;
+        }
+        
+        .chamada {
+            padding: 50px;
+            background: #103d66;
+        }
+        
+        .chamadatext {
+            text-align: start;
+            color: white;
+            font-size: 25px;
+            font-weight: 300;
+        }
+        
+        .chamadavalor {
+            text-align: center;
+            align-items: center;
+            display: flex;
+            font-weight: normal;
+            font-size: 50px;
+            color: #EDCD1F;
+        }
+        
+        .chamada-items button {
+            align-items: center !important;
+        }
+        
+        .chamadabutton {
+            transition: .3s;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.4);
+            width: 100%;
+            max-width: 264px;
+            height: 72px;
+            border-radius: 20px;
+            font-size: 23;
+            font-weight: bold;
+        }
+        
+        .borderz {
+            width: 272px;
+            border-bottom: 5px solid #EDCD1F;
+        }
+        
+        .chamadavalor span {
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            font-weight: 300;
+        }
+        
+        .imgbox1 {
+            max-width: 450px;
+            transition: 1s;
+            width: 100%;
+        }
+        
+        .divbox1 {
+            margin-right: 100px;
+        }
+        
+        .imgbox2 {
+            transition: 1s;
+            width: 100%;
+            max-width: 536px;
+        }
+        
+        .chamadatextprincipal {
+            text-align: start;
+            color: white;
+            font-size: 45px;
+            font-weight: 800;
+        }
+        
+        .god {
+            color: white;
+            padding: 100px 0;
+            background-image: url(../img/shape.svg), linear-gradient(#103D66, #103D66);
+            ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .whois {
+            color: white;
+            background: #103D66
+        }
+        
+        .boxgod {
+            transition: .5s;
+            color: black;
+            padding: 50px 0;
+            align-items: center;
+            width: 100%;
+            max-width: 409px;
+            height: 100%;
+            min-height: 290px;
+            background: #F2F2F2;
+            box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+        }
+        
+        .godbutton {
+            transition: .3s;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.4);
+            width: 100%;
+            max-width: 264px;
+            height: 100%;
+            min-height: 74px;
+            border-radius: 20px;
+            font-size: 23;
+            font-weight: bold;
+        }
+        
+        .godcontentbutton {
+            background: #FFFFFF;
+            box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.4);
+            width: 70%;
+            height: 72px;
+            border-radius: 20px;
+            font-size: 23;
+            font-weight: bold;
+        }
+        
+        .godcontent {
+            color: white;
+            text-align: start;
+        }
+        
+        .godcontent h1 {
+            font-size: 35;
+            font-weight: bold;
+        }
+        
+        .bordergodh1 {
+            border-bottom: 5px solid #EDCD1F;
+        }
+        
+        .bordergodp {
+            max-width: 270px;
+            border-bottom: 5px solid #EDCD1F;
+        }
+        
+        .bordercontato {
+            max-width: 270px;
+            border-bottom: 5px solid #EDCD1F;
+        }
+        
+        .godcontent p {
+            font-size: 24;
+        }
+        
+        .p1 p {
+            font-weight: regular;
+            font-size: 24;
+        }
+        
+        .p2 p {
+            font-weight: regular;
+            font-size: 28;
+        }
+        
+        .contato h1 {
+            font-size: 40;
+            font-weight: bold;
+        }
+        
+        .contato p {
+            font-size: 23;
+        }
+        
+        .contato img,
+        .sociais {
+            width: 100%;
+            max-width: 50px;
+        }
+        
+        .formcontato input {
+            transition: 1s;
+            outline: none;
+            text-align: center;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 35px;
+            margin-top: 20px;
+            max-width: 332px;
+            width: 100%;
+            height: 60px;
+            background: #FFFFFF;
+            border: 1px solid #000000;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 12px -1px rgba(0, 0, 0, 0.4);
+            border-radius: 20px;
+        }
+        
+        .formcontato textarea {
+            transition: 1s;
+            outline: none;
+            text-align: center;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 35px;
+            margin-top: 20px;
+            max-width: 332px;
+            width: 100%;
+            height: 170px;
+            background: #FFFFFF;
+            border: 1px solid #000000;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 12px -1px rgba(0, 0, 0, 0.4);
+            border-radius: 20px;
+        }
+        
+        .formcontato input::placeholder {
+            margin: 0;
+            color: #c2c2c2;
+            text-align: center;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 35px;
+        }
+        
+        .formcontato button {
+            transition: .3s;
+            margin-top: 20px;
+            color: white;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 35px;
+            width: 100%;
+            max-width: 332px;
+            height: 72px;
+            background: #103D66;
+            box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.4);
+            border-radius: 20px;
+        }
+        
+        .contato {
+            background-color: #f2f2f2;
+        }
+        
+        .chamada2text {
+            text-align: end;
+            line-height: 1.2;
+            color: white;
+            font-size: 48px;
+            font-weight: 800;
+        }
+        
+        .chamada2sub {
+            line-height: 1.2;
+            color: white;
+            font-size: 36px;
+            font-weight: 400;
+            text-align: end;
+        }
+        
+        .chamada2 {
+            background: white;
+        }
+        
+        .btndiv {
+            padding: 20px 0;
+            text-align: end;
+        }
+        
+        .footer p {
+            padding: 10px 0;
+            color: #C9C9C9;
+            font-size: 15px;
+            font-weight: 400;
+        }
+        
+        .footer {
+            padding-bottom: 20px;
+            height: auto;
+            background: #103D66;
+        }
+        
+        .navbar-toggler {
+            background: #fff;
+        }
+        
+        .hr {
+            padding: 2;
+            background: white;
+        }
+        
+        .aviso {
+            top: 200px;
+            display: absolute;
+        }
+        
+        .box1 h1 {
+            font-weight: 300;
+            font-size: 16;
+            color: white;
+        }
+        
+        .box2 h1 {
+            text-align: end;
+            font-weight: 300;
+            font-size: 16;
+            color: white;
+        }
